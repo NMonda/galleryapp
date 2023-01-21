@@ -45,7 +45,7 @@ db.on("error", ()=> {
 });
 
 // Define the port number
-const PORT = 5000;
+const PORT = 5500;
 
 app.listen(PORT, ()=>{
    console.log(`Server is listening on port ${PORT}`)
